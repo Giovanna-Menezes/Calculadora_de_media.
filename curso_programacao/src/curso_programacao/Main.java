@@ -25,7 +25,7 @@ public class Main {
 		double resultado = ((np1 + np2) /2 );
 		double nota = (resultado * 0.80);
 		
-		System.out.printf("resultado = %.2f%n", nota);
+		System.out.printf("resultado = %.1f%n", nota);
 		System.out.println("Digite sua nota do pim:");
 		pim = sc.nextDouble();
 		
@@ -40,7 +40,7 @@ public class Main {
 			exame = sc.nextDouble();
 			
 			double resultadoexame = ((nota + exame) / 2);
-			System.out.printf("Sua nota foi: %.2f", resultadoexame);
+			System.out.printf("Sua nota foi: %.1f", resultadoexame);
 			
 		} else {
 			System.out.print("Parabens! Você está na média!");
